@@ -17,7 +17,8 @@
             android:required="false" />
         <uses-library android:name="android.test.mock"
             android:required="false" />
-        <activity android:name="com.superhapp.lbccatalog.ui.BooksActivity">
+        <activity android:name="com.superhapp.lbccatalog.ui.BooksActivity"
+            android:screenOrientation="user">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

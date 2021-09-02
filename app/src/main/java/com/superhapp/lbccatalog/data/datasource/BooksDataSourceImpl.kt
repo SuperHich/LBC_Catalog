@@ -6,7 +6,6 @@ import com.superhapp.lbccatalog.data.model.Result
 import com.superhapp.lbccatalog.data.remote.BookApi
 import com.superhapp.lbccatalog.di.module.IoDispatcher
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.withContext
 import java.io.IOException
 
@@ -41,7 +40,7 @@ class BooksDataSourceImpl(private val bookApi: BookApi,
                 Result.Error(error)
             }
             else -> {
-                Result.Error(Throwable("Unkown error"))
+                Result.Error(Throwable("Unknown error"))
             }
         }
     }
