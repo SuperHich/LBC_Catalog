@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LBC Catalog</string>
+    <string name="empty_list">No users found!</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="title_placeholder">%d- %s</string>
+</resources>
